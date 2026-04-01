@@ -97,7 +97,10 @@
       "/",
       "/404"
     ],
-    "puppeteerExecutablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   },
   "pnpm": {
     "patchedDependencies": {
