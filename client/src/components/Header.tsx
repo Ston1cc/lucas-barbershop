@@ -3,8 +3,8 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475821630/NctuC8YR9W7WstCC9oiRQv/logo-white_09590d7c.png";
-const BOOKING_URL = "https://n1238089.alteg.io/";
+const LOGO_URL = "/branding/picky-blades-logo.png";
+const BOOKING_URL = "https://www.fresha.com/a/picky-blades-barbershop-durlesti-str-cartusa-83-a-bfq7bckw?pId=2566033&gId=2566033&cId=2566033";
 
 const navItems = [
   { key: "nav.home", href: "#home" },
@@ -49,7 +49,7 @@ export default function Header() {
           >
             <img
               src={LOGO_URL}
-              alt="Luca's Barbershop"
+              alt="Picky Blades Barbershop"
               className="h-10 md:h-12"
             />
           </a>

@@ -8,7 +8,7 @@ export default function NotFound() {
   const [, setLocation] = useLocation();
 
   useEffect(() => {
-    document.title = "404 - Page Not Found | Luca's Barbershop";
+    document.title = "404 - Page Not Found | Picky Blades Barbershop";
   }, []);
 
   const handleGoHome = () => {

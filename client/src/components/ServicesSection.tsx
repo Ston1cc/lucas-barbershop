@@ -34,7 +34,7 @@ function ServiceCard({ service, index, isInView }: { service: ServiceItem; index
   const { t } = useLanguage();
 
   const goToBooking = () => {
-    window.open("https://n1238089.alteg.io/", "_blank", "noopener,noreferrer");
+    window.open("https://www.fresha.com/a/picky-blades-barbershop-durlesti-str-cartusa-83-a-bfq7bckw?pId=2566033&gId=2566033&cId=2566033", "_blank", "noopener,noreferrer");
   };
 
   return (

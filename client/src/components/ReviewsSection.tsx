@@ -18,8 +18,8 @@ const reviews: Review[] = [
   {
     nameRo: "Client Verificat",
     nameRu: "Проверенный Клиент",
-    textRo: "Am fost la o tunsoare cand am vizitat Chisinaul. Probabil cea mai buna decizie pe care am luat-o. Rosca Ion este un maestru al artei tunsului. Am avut cea mai buna tunsoare din viata mea! Daca vizitati Chisinaul, faceti-va timp si mergeti la Luca's. Nu veti regreta niciodata alegerea.",
-    textRu: "Я подстригся когда был в Кишинёве. Пожалуй, лучшее решение, которое я принял. Рошка Ион - мастер парикмахерского искусства. У меня была лучшая стрижка в моей жизни! Если вы посещаете Кишинёв, найдите время и зайдите в Luca's. Вы никогда не пожалеете о своём выборе.",
+    textRo: "Am fost la o tunsoare cand am vizitat Chisinaul. Probabil cea mai buna decizie pe care am luat-o. Rosca Ion este un maestru al artei tunsului. Am avut cea mai buna tunsoare din viata mea! Daca vizitati Chisinaul, faceti-va timp si mergeti la Peaky Blades. Nu veti regreta niciodata alegerea.",
+    textRu: "Я подстригся когда был в Кишинёве. Пожалуй, лучшее решение, которое я принял. Рошка Ион - мастер парикмахерского искусства. У меня была лучшая стрижка в моей жизни! Если вы посещаете Кишинёв, найдите время и зайдите в Peaky Blades. Вы никогда не пожалеете о своём выборе.",
     rating: 5,
     timeRo: "acum 4 luni",
     timeRu: "4 месяца назад",

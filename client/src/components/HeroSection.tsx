@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
 const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475821630/NctuC8YR9W7WstCC9oiRQv/hero-bg-5sZatoehzcVvq3ZLHHQFRK.webp";
-const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475821630/NctuC8YR9W7WstCC9oiRQv/logo-white_09590d7c.png";
+const LOGO_URL = "/branding/picky-blades-logo.png";
 
 export default function HeroSection() {
   const { t } = useLanguage();
@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <img
           src={HERO_BG}
-          alt="Luca's Barbershop Interior"
+          alt="Picky Blades Barbershop Interior"
           className="w-full h-full object-cover scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D0D]/60 via-[#0D0D0D]/40 to-[#0D0D0D]" />
@@ -47,7 +47,7 @@ export default function HeroSection() {
           {/* Logo */}
           <motion.img
             src={LOGO_URL}
-            alt="Luca's Barbershop"
+            alt="Picky Blades Barbershop"
             className="h-20 md:h-28 mx-auto mb-8"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}

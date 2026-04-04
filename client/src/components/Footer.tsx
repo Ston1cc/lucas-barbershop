@@ -1,7 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Instagram, Phone, MapPin } from "lucide-react";
 
-const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475821630/NctuC8YR9W7WstCC9oiRQv/logo-white_09590d7c.png";
+const LOGO_URL = "/branding/picky-blades-logo.png";
 
 function TikTokIcon({ size = 18 }: { size?: number }) {
   return (
@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <img
               src={LOGO_URL}
-              alt="Luca's Barbershop"
+              alt="Picky Blades Barbershop"
               className="h-10 mx-auto md:mx-0 mb-3"
             />
             <p
@@ -94,7 +94,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-10 pt-6 border-t border-[#C8A961]/5 text-center">
           <p className="text-[#E8E0D4]/20 text-xs" style={{ fontFamily: "var(--font-body)" }}>
-            &copy; {new Date().getFullYear()} Luca's Barbershop. {t("footer.rights")}
+            &copy; {new Date().getFullYear()} Picky Blades Barbershop. {t("footer.rights")}
           </p>
         </div>
       </div>

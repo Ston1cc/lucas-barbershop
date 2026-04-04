@@ -50,7 +50,7 @@ export default function AboutSection() {
     <section id="about" className="relative section-padding overflow-hidden" style={{ background: "#0D0D0D" }}>
       {/* Subtle background texture */}
       <div className="absolute inset-0 opacity-[0.04]">
-        <img src={ABOUT_BG} alt="Interior premium Luca's Barbershop Chișinău" className="w-full h-full object-cover" />
+        <img src={ABOUT_BG} alt="Interior premium Picky Blades Barbershop Chișinău" className="w-full h-full object-cover" />
       </div>
 
       <div className="container relative z-10" ref={ref}>
@@ -100,7 +100,7 @@ export default function AboutSection() {
               <div className="relative rounded-sm overflow-hidden aspect-[3/4]">
                 <img
                   src={OWNER_IMG}
-                  alt="Luca's Barbershop Owner"
+                  alt="Picky Blades Barbershop Owner"
                   className="w-full h-full object-cover object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -113,7 +113,7 @@ export default function AboutSection() {
             <div className="relative hidden lg:block">
               <img
                 src={OWNER_IMG}
-                alt="Luca's Barbershop Owner"
+                alt="Picky Blades Barbershop Owner"
                 className="w-full max-w-md rounded-sm shadow-2xl"
               />
               {/* Floating second image */}

@@ -56,7 +56,7 @@ export default function ContactSection() {
                   {t("contact.address")}
                 </h4>
                 <p className="text-[#E8E0D4]/60 text-sm" style={{ fontFamily: "var(--font-body)" }}>
-                  Strada Alexandru cel Bun 62, Chișinău, Moldova
+                  Strada Cartuşa 83/A, Chișinău, Moldova
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function ContactSection() {
                 </h4>
                 <div className="flex items-center gap-4">
                   <a
-                    href="https://www.instagram.com/lucas__barbershop_/"
+                    href="https://www.instagram.com/pickyblades/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#E8E0D4]/60 hover:text-[#C8A961] transition-colors text-sm"
@@ -116,7 +116,7 @@ export default function ContactSection() {
                     Instagram
                   </a>
                   <a
-                    href="https://www.tiktok.com/@lucas__barbershop_"
+                    href="https://www.tiktok.com/@pickyblades"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#E8E0D4]/60 hover:text-[#C8A961] transition-colors text-sm"
@@ -137,16 +137,15 @@ export default function ContactSection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="h-[400px] lg:h-full min-h-[400px] rounded-sm overflow-hidden border border-[#C8A961]/10 relative"
           >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.0!2d28.84017!3d47.02560!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c3652685a7f%3A0x36bbd154a01d7d0d!2sStrada%20Alexandru%20cel%20Bun%2062%2C%20Chi%C8%99in%C4%83u%2C%20Moldova!5e0!3m2!1sro!2smd!4v1"
-              width="100%"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.723861796522!2d28.745518976204472!3d47.01599457114173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97f0076591a57%3A0xb00f59dd851acd3!2sPickyBlades-BarberShop!5e1!3m2!1sen!2s!4v1775293939184!5m2!1sen!2s" 
+            width="100%"
               height="100%"
-              style={{ border: 0, filter: "invert(90%) hue-rotate(180deg) brightness(0.95) contrast(1.1)" }}
+              style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Luca's Barbershop Location"
-            />
+              title="Picky Blades Barbershop Location">
+            </iframe>
             {/* Gold overlay tint */}
             <div className="absolute inset-0 pointer-events-none bg-[#C8A961]/5 mix-blend-overlay" />
           </motion.div>

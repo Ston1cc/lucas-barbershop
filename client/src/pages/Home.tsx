@@ -11,7 +11,7 @@ import StickyBookButton from "@/components/StickyBookButton";
 
 export default function Home() {
   useEffect(() => {
-    document.title = "Luca's Barbershop \u2014 Barbershop Premium Chi\u0219in\u0103u";
+    document.title = "Picky Blades Barbershop \u2014 Barbershop Premium Chi\u0219in\u0103u";
   }, []);
   return (
     <div className="min-h-screen" style={{ background: "#0D0D0D" }}>

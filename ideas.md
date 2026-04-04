@@ -1,4 +1,4 @@
-# Idei de Design — Luca's Barbershop
+# Idei de Design — Picky Blades Barbershop
 
 <response>
 <text>

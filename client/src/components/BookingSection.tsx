@@ -60,7 +60,7 @@ export default function BookingSection() {
     <section id="booking" className="relative section-padding overflow-hidden" style={{ background: "#0A0A0A" }}>
       {/* Background */}
       <div className="absolute inset-0 opacity-8">
-        <img src={BOOKING_BG} alt="Programări online Luca's Barbershop Chișinău" className="w-full h-full object-cover" />
+        <img src={BOOKING_BG} alt="Programări online Picky Blades Barbershop Chișinău" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-[#0A0A0A]/90" />
       </div>
 
